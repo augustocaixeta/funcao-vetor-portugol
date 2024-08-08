@@ -12,10 +12,10 @@ programa {
   }
 
   funcao inicio() {
-    inteiro vet[3], media = 0
+    inteiro TAMANHO = 3, vet[TAMANHO], media = 0
 
-    para (inteiro i = 0; i < 3; i++) {
-      escreva("Insira a nota ", i + 1, ": ")
+    para (inteiro i = 0; i < TAMANHO; i++) {
+      escreva("Insira a nota (", i + 1, "/", TAMANHO, "): ")
       leia(vet[i])
     }
 
